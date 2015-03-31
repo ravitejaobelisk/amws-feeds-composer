@@ -1,0 +1,26 @@
+{
+    "name": "ravitejaobelisk/amws-feeds-composer",
+    "type": "library",
+    "license": "Apache-2.0",
+    "description": "Amazon Mws feeds for composer installation and autload",
+    "keywords": ["amazon", "mws", "amazon-feeds"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Ravi Teja",
+            "email": "ravi@obelisksolutions.in"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.2"
+    },
+
+    "autoload": {
+        "classmap": [ "src/" ]
+    },
+
+    "target-dir": "",
+    
+    "include-path": ["/src/"]
+}
